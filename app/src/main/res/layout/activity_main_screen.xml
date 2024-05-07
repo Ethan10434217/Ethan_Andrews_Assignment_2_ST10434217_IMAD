@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/backgroundLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainScreen">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="42dp" />
+
+    <TextView
+        android:id="@+id/edtWelcome"
+        android:layout_width="286dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Hello What Will We Do Today!?"
+        android:textSize="20sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="27dp" />
+
+    <ImageView
+        android:id="@+id/imgMain"
+        android:layout_width="match_parent"
+        android:layout_height="312dp"
+        android:layout_gravity="center_horizontal"
+        app:srcCompat="@drawable/image1" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="67dp" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <Button
+            android:id="@+id/btnFeed"
+            android:layout_width="173dp"
+            android:layout_height="wrap_content"
+            android:text="Feed Me!"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/edtHungerStatus"
+            android:layout_width="214dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:text="I Am Hungry!"
+            android:textSize="26sp" />
+    </TableRow>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="19dp" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="55dp">
+
+        <Button
+            android:id="@+id/btnClean"
+            android:layout_width="173dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Clean Me!"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/edtCleanStatus"
+            android:layout_width="212dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:text="I Am Dirty!"
+            android:textSize="28sp" />
+    </TableRow>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="53dp">
+
+        <Button
+            android:id="@+id/btnPlay"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Play With Me!"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/edtPlayStatus"
+            android:layout_width="203dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:text="I Want To Play!"
+            android:textSize="24sp" />
+
+    </TableRow>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="61dp" />
+
+</LinearLayout>
