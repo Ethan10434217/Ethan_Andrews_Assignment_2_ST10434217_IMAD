@@ -28,3 +28,4 @@ class DrawableMatcher(private val expectedId: Int) :
         return expectedBitmap.sameAs(actualBitmap)
     }
 }
+//OpenAI. 2023. [Online] Available at: https://chatgpt.com/?oai-dm=1 [Accessed 7 May 2023].

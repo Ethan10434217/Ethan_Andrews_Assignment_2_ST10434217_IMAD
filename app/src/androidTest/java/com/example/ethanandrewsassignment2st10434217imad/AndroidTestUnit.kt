@@ -30,7 +30,7 @@ class MainScreenTest {
         // Checking if hunger status text is updated
         onView(withId(R.id.edtHungerStatus)).check(matches(withText("I am Full!")))
     }
-
+    //OpenAI. 2023. [Online] Available at: https://chatgpt.com/?oai-dm=1 [Accessed 7 May 2023].
     @Test
     fun testCleanButton() {
         // Clicking on clean button
@@ -42,6 +42,7 @@ class MainScreenTest {
         // Checking if clean status text is updated
         onView(withId(R.id.edtCleanStatus)).check(matches(withText("I am Clean!")))
     }
+    //OpenAI. 2023. [Online] Available at: https://chatgpt.com/?oai-dm=1 [Accessed 7 May 2023].
 
     @Test
     fun testPlayButton() {
@@ -59,6 +60,6 @@ class MainScreenTest {
     private fun withDrawable(resourceId: Int) = DrawableMatcher(resourceId)
 }
 
+            //OpenAI. 2023. [Online] Available at: https://chatgpt.com/?oai-dm=1 [Accessed 7 May 2023].
 
 
-}
